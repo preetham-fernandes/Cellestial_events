@@ -1,5 +1,5 @@
 {
-  "name": "schedula",
+  "name": "cellestial-events",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,6 +24,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.4.0",
+    "sharp": "^0.33.5",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },

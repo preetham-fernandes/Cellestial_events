@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
         <h1 className="text-4xl md:text-6xl font-serif text-white mb-4">
-        Decor That Defines Perfection
+        Turning Moments Into Memories
         </h1>
         <p className="text-xl font-sans text-white mb-8">
           From weddings to corporate gatherings, we bring your vision to life

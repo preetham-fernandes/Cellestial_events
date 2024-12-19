@@ -37,7 +37,7 @@ export default function Testimonials() {
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-200 italic group-hover:text-white transition-all duration-300">
-                  "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
                 </p>
               </CardContent>
             </Card>

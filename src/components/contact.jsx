@@ -35,7 +35,7 @@ export default function Contact() {
       id="contact"
       className="pt-20 pb-10 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url(${BgImage.src})`, // Correct way to reference the image
+        backgroundImage: `url(${BgImage.src})`,
         backgroundAttachment: "fixed",
       }}
     >
@@ -45,9 +45,9 @@ export default function Contact() {
           className="max-w-xl mx-auto bg-black bg-opacity-50 p-8 rounded-lg shadow-lg space-y-6"
         >
           <div className="space-y-2">
-          <h2 className="text-4xl font-bold text-white text-center mb-6">
-          Get in Touch
-        </h2>
+            <h2 className="text-4xl font-bold text-white text-center mb-6">
+              Get in Touch
+            </h2>
             <label
               htmlFor="name"
               className="block text-lg font-medium text-white"
@@ -106,7 +106,7 @@ export default function Contact() {
         </form>
 
         {success && (
-          <p className="text-green-600 font-medium text-center mt-6">
+          <p className="bg-black bg-opacity-50 text-white font-medium text-center mt-6 py-3 px-4 rounded mx-auto max-w-sm md:max-w-md">
             Thank you for reaching out! We will get back to you soon.
           </p>
         )}
